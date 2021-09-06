@@ -8,13 +8,10 @@ function Display(props) {
 
   return (
     <>
-      <div className='display'>
+      <div className='display' id='display'>
         <p>{desc}</p>
       </div>
       <ButtonGrid handler={updateDesc} />
-      <a href='https://freesound.org/people/LittleRobotSoundFactory/packs/16681/'>
-        Sounds by LittleRobotSoundFactory
-      </a>
     </>
   );
 }

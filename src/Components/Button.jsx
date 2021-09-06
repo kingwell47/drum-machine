@@ -1,8 +1,11 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 
 function Button(props) {
+  const [active, setActive] = useState(false);
+
   const handlePressed = (event) => {
-    if (event.key === props.id.toLowerCase()) {
+    let keyed = event.key.toLowerCase();
+    if (keyed === props.id.toLowerCase()) {
       handleClick();
     }
   };
@@ -11,8 +14,12 @@ function Button(props) {
   });
 
   const handleClick = () => {
+    setActive(true);
     playAudio();
     props.handler(props.desc);
+    setTimeout(() => {
+      setActive(false);
+    }, 100);
   };
 
   const playAudio = () => {
@@ -21,7 +28,10 @@ function Button(props) {
   };
 
   return (
-    <div className='button' onClick={handleClick}>
+    <div
+      className={active ? "drum-pad active" : "drum-pad"}
+      id={props.btnId}
+      onClick={handleClick}>
       <audio className='clip' id={props.id} src={props.src}></audio>
       {props.id}
     </div>

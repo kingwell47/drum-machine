@@ -1,14 +1,42 @@
 @use "./functions" as fnc;
 
 .main {
-  width: fnc.rem(600);
-  height: fnc.rem(600);
-  background-color: var(--roseEbony);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
+  width: 100vw;
+  height: 100vh;
+
+  h1 {
+    text-shadow: fnc.rem(4) fnc.rem(4) fnc.rem(3) rgba(0, 0, 0, 0.25);
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--lavenderBlush);
+    transition: color 350ms ease-in-out;
+
+    &:hover {
+      color: yellow;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.drum-machine {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fnc.rem(600);
+  padding-bottom: 2rem;
+  box-shadow: 0px fnc.rem(4) fnc.rem(16) fnc.rem(8) rgba(0, 0, 0, 0.25);
+  background-color: var(--roseEbony);
+  border-radius: fnc.rem(25);
 }
 
 .button-grid {
@@ -16,12 +44,39 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 1rem;
+  margin-bottom: 1rem;
 }
 
-.button {
-  text-align: center;
+.drum-pad {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 5rem;
   height: 3rem;
+  box-shadow: fnc.rem(8) fnc.rem(8) 0 fnc.rem(-3) rgba(0, 0, 0, 0.25);
   background-color: var(--ultraRed);
+  border-radius: fnc.rem(25);
   cursor: pointer;
+
+  &.active {
+    background-color: var(--rubyRed);
+  }
+}
+
+.display {
+  max-width: 60%;
+  background-color: var(--darkSienna);
+  border: fnc.rem(2) solid var(--rubyRed);
+  border-radius: fnc.rem(25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+
+  p {
+    margin: 0;
+  }
 }
