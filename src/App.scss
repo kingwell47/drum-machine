@@ -1,0 +1,27 @@
+@use "./functions" as fnc;
+
+.main {
+  width: fnc.rem(600);
+  height: fnc.rem(600);
+  background-color: var(--roseEbony);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.button {
+  text-align: center;
+  width: 5rem;
+  height: 3rem;
+  background-color: var(--ultraRed);
+  cursor: pointer;
+}
