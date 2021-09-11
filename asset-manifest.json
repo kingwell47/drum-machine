@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/drum-machine/static/css/main.f46c11e7.chunk.css",
-    "main.js": "/drum-machine/static/js/main.cb0fa876.chunk.js",
-    "main.js.map": "/drum-machine/static/js/main.cb0fa876.chunk.js.map",
+    "main.css": "/drum-machine/static/css/main.70960b51.chunk.css",
+    "main.js": "/drum-machine/static/js/main.ef663a03.chunk.js",
+    "main.js.map": "/drum-machine/static/js/main.ef663a03.chunk.js.map",
     "runtime-main.js": "/drum-machine/static/js/runtime-main.34089336.js",
     "runtime-main.js.map": "/drum-machine/static/js/runtime-main.34089336.js.map",
     "static/js/2.d101db2c.chunk.js": "/drum-machine/static/js/2.d101db2c.chunk.js",
     "static/js/2.d101db2c.chunk.js.map": "/drum-machine/static/js/2.d101db2c.chunk.js.map",
     "index.html": "/drum-machine/index.html",
-    "static/css/main.f46c11e7.chunk.css.map": "/drum-machine/static/css/main.f46c11e7.chunk.css.map",
+    "static/css/main.70960b51.chunk.css.map": "/drum-machine/static/css/main.70960b51.chunk.css.map",
     "static/js/2.d101db2c.chunk.js.LICENSE.txt": "/drum-machine/static/js/2.d101db2c.chunk.js.LICENSE.txt",
     "static/media/270304__littlerobotsoundfactory__collect-point-00.wav": "/drum-machine/static/media/270304__littlerobotsoundfactory__collect-point-00.5a9b4fe5.wav",
     "static/media/270307__littlerobotsoundfactory__explosion-01.wav": "/drum-machine/static/media/270307__littlerobotsoundfactory__explosion-01.49ac8afa.wav",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.34089336.js",
     "static/js/2.d101db2c.chunk.js",
-    "static/css/main.f46c11e7.chunk.css",
-    "static/js/main.cb0fa876.chunk.js"
+    "static/css/main.70960b51.chunk.css",
+    "static/js/main.ef663a03.chunk.js"
   ]
 }
