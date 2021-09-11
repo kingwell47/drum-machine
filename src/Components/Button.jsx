@@ -11,6 +11,7 @@ function Button(props) {
   };
   useEffect(() => {
     window.addEventListener("keydown", handlePressed);
+    return () => window.removeEventListener("keydown", handlePressed);
   });
 
   const handleClick = () => {
