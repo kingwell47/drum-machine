@@ -7,6 +7,7 @@ This is a solution to the [Build a Drum Machine project](https://www.freecodecam
 ## Table of contents
 
 - [Overview](#overview)
+  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -18,6 +19,18 @@ This is a solution to the [Build a Drum Machine project](https://www.freecodecam
 - [Acknowledgments](#acknowledgments)
 
 ## Overview
+
+### The challenge
+
+Users should be able to:
+
+- Click a button or press the corresponding keyboard key and the associated sound will play.
+- The name of the sound will be displayed on the display element.
+
+Additional things I did:
+
+- Instead of drum sounds as described in the original project, I used 8-bit sound effects.
+- Styled the project to look a bit retro-futuristic.
 
 ### Screenshot
 

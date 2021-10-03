@@ -9,7 +9,9 @@ function App() {
       <a href='https://freesound.org/people/LittleRobotSoundFactory/packs/16681/'>
         Sounds by LittleRobotSoundFactory
       </a>
-      <a href='https://www.kingwell47.com'>Coded by Kingwell47</a>
+      <a href='https://www.joeldoctor.com' rel='noreferrer' target='_blank'>
+        Coded by Kingwell47
+      </a>
     </div>
   );
 }
